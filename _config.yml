@@ -2,14 +2,14 @@
 # Setup
 title:               Qonnect
 email:               example@gmail.com
-tagline:             Free Jekyll theme made for developers
+tagline:             Smarter Wi-Fi credentials
 url:                 "" # insert your site's URL
 baseurl:             ""
 
 # About/contact
 author: # you can edit these to be your personal details
-  name:              Xiaoying Riley
-  url:               https://twitter.com/3rdwave_themes
+  name:              Max Lepin
+  url:               https://twitter.com/maxlepin
   email:
 
 # Google services
