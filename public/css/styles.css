@@ -440,10 +440,10 @@ pre code {
 }
 .contact .author-message .profile {
   position: absolute;
-  left: 0px;
+  left: 30px;
   top: 15px;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 .contact .author-message .profile img {
   -webkit-border-radius: 50%;
