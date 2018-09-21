@@ -529,6 +529,8 @@ pre code {
 }
 
 .contact .author-message .profile img {
+  height: 100px;
+  width: 100px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
