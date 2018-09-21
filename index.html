@@ -82,18 +82,19 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">CONTACT FORM</h5>
-        <form method="POST" action="https://formspree.io/YOUREMAILHERE">
-          <input type="email" name="email" placeholder="Your email">
-          <textarea name="message" placeholder="Your message"></textarea>
-          <button type="submit">Send</button>
-        </form>
+
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
+        <form method="POST" action="https://formspree.io/YOUREMAILHERE">
+          <input type="email" name="email" placeholder="Your email">
+          <br>
+          <textarea name="message" placeholder="Your message"></textarea>
+          <br>
+          <button type="submit">Send</button>
+        </form>      </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">DEMO</button>
         <button type="button" class="btn btn-primary">DOWNLOAD</button>
