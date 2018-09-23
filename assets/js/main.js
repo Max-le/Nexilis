@@ -1,5 +1,11 @@
 jQuery(document).ready(function($) {
 
+
+
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
     /* ======= Scrollspy ======= */
     $('body').scrollspy({ target: '#header', offset: 400});
     
