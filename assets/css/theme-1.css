@@ -16,7 +16,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+.modal {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+}
 .my-primary{
   background-color: transparent;
   color: #244a87;
