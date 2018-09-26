@@ -16,6 +16,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+.my-primary{
+  background-color: transparent;
+  color: #09617e;
+  font-size: 12px;
+
+}
+.my-secondary{
+  font-size: 14px;
+  text-align: center;
+}
+
+
 form{
   text-align: center;
 }
