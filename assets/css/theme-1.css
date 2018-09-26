@@ -97,6 +97,7 @@ a.btn-cta-secondary, .btn-cta-secondary {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
+  margin: 50px;
 }
 
 a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
@@ -514,6 +515,7 @@ pre code {
   padding: 80px 0;
   background: #17baef;
   color: #fff;
+  text-align: center;
 }
 
 .contact .contact-inner {
