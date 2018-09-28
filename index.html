@@ -197,6 +197,49 @@
             <div class="contact-inner">
                 <h2 class="title  text-center">Contact</h2>
                 <p class="intro  text-center">If you are interested in having your QR code : just click here (link to form or mail or something). </p>
+                <div class="btns">
+            <a class="btn btn-cta-secondary" data-toggle="modal" data-target="#exampleModal">CONTACT</a>
+
+            <!-- Modal : CONTACT FORM -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">CONTACT FORM</h5>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                <form method="POST" action="https://formspree.io/max.09@outlook.com">
+                  <input type="email"  name="email" placeholder="Votre adresse email" data-toggle="tooltip" data-placement="right" title="Entrez ici une adresse email à laquelle nous pourrons vous répondre.">
+                  <br>
+                  <!-- For language -->
+                  <input type="hidden" name="_language" value="fr" />
+                  <textarea name="message" placeholder="Votre message" data-toggle="tooltip" data-placement="right" title="Écrivez votre demande ici."></textarea>
+                  <br>
+                                <div class="modal-footer">
+               
+
+
+
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
+                <button type="submit" class="btn btn-primary"   >Envoyer <i class="fas fa-paper-plane"></i></button>
+            </div>
+              </form>     
+               </div>
+
+        </div>
+    </div>
+</div> 
+<!-- End MODAL : CONTACT FORM -->
+
+
+</div>
+<!-- End div btns -->
+
+                
                 <div class="author-message">
                     <div class="profile">
                       <img class="img-responsive" src="assets/images/profile3.jpg" alt="Profile picture" />
