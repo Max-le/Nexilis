@@ -16,6 +16,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.iti-flag {background-image: url("assets/images/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti-flag {background-image: url("assets/images/flags@2x.png");}
+}
+
 .modal {
     position: fixed;
     top: 70px;

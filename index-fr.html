@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="assets/plugins/prism/prism.css">
   <!-- Theme CSS -->  
   <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
-  <link rel="stylesheet" href="path/to/intlTelInput.css">
+  <link rel="stylesheet" href="assets/css/intlTelInput.css">
 
   <!-- GitHub Button -->
   <script async defer src="https://buttons.github.io/buttons.js"></script> 
@@ -306,8 +306,17 @@
               </div>
               <div class="modal-body">
                 <form method="POST" action="https://formspree.io/max.09@outlook.com">
-                  <input type="email"  name="email" placeholder="Votre adresse email" ><br>          
-                  <input type="tel"  name="tel" placeholder="+32 ∙∙∙ ∙∙ ∙∙" pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" >
+                  <input type="email"  name="email" placeholder="Votre adresse email" ><br>  
+
+
+
+                  <input type="tel" id="phone" name="tel" >
+
+                  <script src="assets/js/intlTelInput.js"></script>
+                  <script>
+                    var input = document.querySelector("#phone");
+                    window.intlTelInput(input);
+                  </script>
 
                   <br>
                   <!-- For language -->
