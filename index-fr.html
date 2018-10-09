@@ -309,14 +309,8 @@
                   <input type="email"  name="email" placeholder="Votre adresse email" ><br>  
 
 
+                 <input id="phone" name="phone" type="tel">
 
-                  <input type="tel" id="phone" name="tel" >
-
-                  <script src="assets/js/intlTelInput.js"></script>
-                  <script>
-                    var input = document.querySelector("#phone");
-                    window.intlTelInput(input);
-                  </script>
 
                   <br>
                   <!-- For language -->
@@ -404,6 +398,37 @@
 <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
 <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
 <script type="text/javascript" src="assets/js/main.js"></script>  
+
+<script src="assets/js/intlTelInput.js"></script>
+<script>
+
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      // allowDropdown: false,
+      // autoHideDialCode: false,
+      //autoPlaceholder: "off",
+      // dropdownContainer: document.body,
+      // excludeCountries: ["us"],
+      // formatOnDisplay: false,
+      // geoIpLookup: function(callback) {
+      //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+      //     var countryCode = (resp && resp.country) ? resp.country : "";
+      //     callback(countryCode);
+      //   });
+      // },
+      // hiddenInput: "full_number",
+      initialCountry: "fr",
+      // localizedCountries: { 'de': 'Deutschland' },
+      // nationalMode: false,
+      // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+      // placeholderNumberType: "MOBILE",
+      // preferredCountries: ['cn', 'jp'],
+      // separateDialCode: true,
+      utilsScript: "assets/js/utils.js",
+    });
+  
+</script>
+<script class="iti-load-utils" async="" src="assets/js/utils.js"></script>
 
 
 </body>
