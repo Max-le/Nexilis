@@ -16,6 +16,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/*Cette classe est pour mettre en évidence le prix*/
+.price {
+  font-size: 26px;
+}
+
 .iti-flag {background-image: url("assets/images/flags.png");}
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
