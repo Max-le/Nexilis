@@ -20,6 +20,12 @@ body {
 /*Cette classe est pour mettre en évidence le prix*/
 .price {
   font-size: 26px;
+  font-family: : sans-serif;
+}
+.disclaimer-TVA {
+  font-size: 11px;
+  text-align: right;
+  margin-bottom: -20px;
 }
 
 .iti-flag {background-image: url("assets/images/flags.png");}
