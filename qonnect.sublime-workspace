@@ -255,24 +255,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index-fr.html",
-			"settings":
-			{
-				"buffer_size": 13632,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 14437,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -363,6 +345,11 @@
 	},
 	"file_history":
 	[
+		"/Users/max/Documents/GitHub/qonnect/index.html",
+		"/Users/max/Documents/GitHub/qonnect/index-en.html",
+		"/Users/max/Documents/GitHub/qonnect/index-fr.html",
+		"/Users/max/Documents/GitHub/qonnect/qonnect.sublime-project",
+		"/Users/max/Library/Application Support/Sublime Text 3/Packages/User/chrome.sublime-build",
 		"/Users/max/Google Drive/DKE/CS2/Lab4/ButtonViewer.java",
 		"/Users/max/Desktop/launchpad/OlympicRingViewer.java",
 		"/Users/max/Desktop/launchpad/OlympicRingComponent.java",
@@ -372,8 +359,6 @@
 		"/Users/max/Documents/GitHub/qrcode/qr_wifi.py",
 		"/Users/max/Google Drive/DKE/CS2/Lab4/Car.java",
 		"/Users/max/Google Drive/DKE/CS2/Lab4/Panneau.java",
-		"/Users/max/Documents/GitHub/qonnect/index.html",
-		"/Users/max/Documents/GitHub/qonnect/index-fr.html",
 		"/Users/max/Documents/GitHub/qonnect/assets/css/theme-1.css",
 		"/Users/max/Desktop/test/ButtonDemo.java",
 		"/Users/max/Google Drive/DKE/Cognitive science/Practical assignements/Practical2_code/Practical2.java",
@@ -446,7 +431,7 @@
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -460,6 +445,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"index",
+			"index-fr"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -477,68 +464,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index-fr.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13632,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4262,
-								4262
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 7134.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14437,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -581,7 +508,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/User/chrome.sublime-build",
 	"project": "qonnect.sublime-project",
 	"replace":
 	{
