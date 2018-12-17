@@ -396,6 +396,8 @@ pre code {
 .features .feature-list li {
   margin-bottom: 10px;
   color: #074f66;
+  text-align: left;
+
 }
 
 .features .feature-list li .svg-inline--fa {
