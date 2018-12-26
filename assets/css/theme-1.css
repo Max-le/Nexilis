@@ -18,14 +18,16 @@ body {
 
 
 /*Cette classe est pour mettre en évidence le prix*/
-.price {
+.price1 {
   font-size: 30px;
   font-family: :'Lato', sans-serif; 
   color: #EEBE3F; 
-  border-style: solid;
-  border-color: blue;
+  border-style: dotted;
+  border-color: gray;
+  border-width: 2px;
 
 }
+
 .disclaimer-TVA {
   font-size: 11px;
   text-align: right;
