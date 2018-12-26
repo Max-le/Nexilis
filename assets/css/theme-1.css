@@ -20,11 +20,16 @@ body {
 /*Cette classe est pour mettre en évidence le prix*/
 .price {
   font-size: 26px;
-  font-family: : sans-serif;
+  font-family: : sans-serif;  
 }
 .disclaimer-TVA {
   font-size: 11px;
   text-align: right;
+  margin-bottom: -20px;
+}
+.disclaimer-price {
+  font-size: 11px;
+  text-align: ;
   margin-bottom: -20px;
 }
 
