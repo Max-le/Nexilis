@@ -24,7 +24,8 @@ body {
   color: #EEBE3F; 
   border-style: dotted;
   border-color: gray;
-  border-width: 2px;
+  border-width: 3px;
+  margin-top: 20px;
 
 }
 
